@@ -38,11 +38,6 @@ Maharati is a web solution designed to help users develop their skills by sugges
    npm start
    ```
 
-4. **Build for production:**
-
-   ```bash
-   npm run build
-   ```
 
 ## Contributing
 
