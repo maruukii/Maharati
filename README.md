@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1WOPBA84hb74POnddkHTYjYVxJNXOWJh4/view?usp=drive
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Maruukii/Maharati.git
+   git clone https://github.com/maruukii/Maharati.git
    cd Maharati
    ```
 
