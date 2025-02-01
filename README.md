@@ -24,7 +24,10 @@ Maharati is a web solution designed to help users develop their skills by sugges
 ```bash
   https://maharati-api.onrender.com
 ```
-
+## Deployment Link
+```bash
+https://drive.google.com/file/d/1WOPBA84hb74POnddkHTYjYVxJNXOWJh4/view?usp=drive_link
+```
 ## Project Setup
 
 1. **Clone the repository:**
