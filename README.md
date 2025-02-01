@@ -9,10 +9,20 @@ Maharati is a web solution designed to help users develop their skills by sugges
 - Vite.js: A modern front-end build tool that provides a fast development experience.
 - React.js: A JavaScript library for building user interfaces, particularly single-page applications.
 
+### Backend
+
+- Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- Express.js: A minimal and flexible Node.js web application framework.
+- MongoDB: A document database with the scalability and flexibility that you want with the querying and indexing that you need.
+
 ## Deployment Link
 
 ```bash
   https://maharati-front.onrender.com
+```
+
+```bash
+  https://maharati-api.onrender.com
 ```
 
 ## Project Setup
@@ -21,8 +31,7 @@ Maharati is a web solution designed to help users develop their skills by sugges
 
    ```bash
    git clone https://github.com/Maruukii/Maharati.git
-   cd maharati
-   cd maharati-front
+   cd Maharati
    ```
 
 2. **Install dependencies:**
@@ -31,13 +40,19 @@ Maharati is a web solution designed to help users develop their skills by sugges
    npm install
    ```
 
-3. **Start the development server:**
+3. **Start the development server (Frontend):**
 
    ```bash
    npm run dev
    ```
 
-4. **Build for production:**
+4. **Start the development server (Backend):**
+
+   ```bash
+   npm start
+   ```
+
+5. **Build for production:**
 
    ```bash
    npm run build
