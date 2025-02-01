@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "DASHBOARD": {
+      "TEXT": "Tableau de bord",
+      "LIST": {
+        "ANALYTICS": "Analytique",
+        "ECOMMERCE": "E-commerce"
+      }
+    },
+    "APPS": {
+      "TEXT": "Applications",
+      "LIST": {
+        "CALENDAR": "Calendrier",
+        "CHAT": "Discussion",
+        "EMAIL": "Email",
+        "FILEMANAGER": "Gestionnaire de fichiers",
+        "TODO": "Liste des tâches",
+        "CONTACTS": "Contacts",
+        "LEARNING": "Apprentissage",
+        "COURSES": "Cours",
+        "KANBANBOARD": "Tableau Kanban",
+        "INVOICES": "Factures",
+        "LISTVIEW": "Vue en liste",
+        "OVERVIEW": "Aperçu",
+        "CREATEINVOICE": "Créer une facture"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Authentification",
+      "LIST": {
+        "SIGNIN": "Se connecter",
+        "SIGNUP": "S'inscrire",
+        "PASSWORDRESET": "Réinitialisation du mot de passe",
+        "PASSWORDCREATE": "Création du mot de passe",
+        "LOCKSCREEN": "Écran de verrouillage",
+        "LOGOUT": "Déconnexion",
+        "SUCCESSMESSAGE": "Message de succès",
+        "TWOSTEPVERIFICATION": "Vérification à deux étapes",
+        "ERRORS": "Erreurs",
+        "404ERROR": "Erreur 404",
+        "500": "500",
+        "OFFLINE": "Page hors ligne"
+      }
+    },
+    "MORE": {
+      "TEXT": "Plus"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "Pages supplémentaires",
+      "LIST": {
+        "STARTER": "Démarrage",
+        "PROFILE": "Profil",
+        "PROFILESETTINGS": "Paramètres du profil",
+        "TIMELINE": "Chronologie",
+        "FAQS": "FAQ",
+        "PRICING": "Tarification",
+        "MAINTENANCE": "Maintenance",
+        "COMINGSOON": "Prochainement",
+        "PRIVACYPOLICY": "Politique de confidentialité",
+        "TERMS&CONDITIONS": "Termes et conditions"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Composants"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "Alertes",
+        "BADGES": "Badges",
+        "BUTTONS": "Boutons",
+        "COLORS": "Couleurs",
+        "CARDS": "Cartes",
+        "CAROUSEL": "Carrousel",
+        "DROPDOWNS": "Menus déroulants",
+        "GRID": "Grille",
+        "IMAGES": "Images",
+        "TABS": "Onglets",
+        "ACCORDION&COLLAPSE": "Accordéon et Réduction",
+        "MODALS": "Modales"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "Objet multimédia",
+        "EMBEDVIDEO": "Vidéo intégrée",
+        "TYPOGRAPHY": "Typographie",
+        "LISTS": "Listes",
+        "LINKS": "Liens",
+        "GENERAL": "Général",
+        "UTILITIES": "Utilitaires",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Emplacements réservés",
+        "PROGRESS": "Progression",
+        "NOTIFICATIONS": "Notifications"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Interface avancée",
+      "LIST": {
+        "SWEETALERTS": "Alertes personnalisées",
+        "NESTABLELIST": "Liste imbriquée",
+        "SCROLLBAR": "Barre de défilement",
+        "SWIPERSLIDER": "Slider Swiper",
+        "RATTINGS": "Évaluations",
+        "HIGHLIGHT": "Surlignage",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Formulaires",
+      "LIST": {
+        "BASICELEMENTS": "Éléments de base",
+        "FORMSELECT": "Sélection de formulaire",
+        "CHECKBOXS&RADIOS": "Cases à cocher et boutons radio",
+        "PICKERS": "Sélecteurs",
+        "INPUTMASKS": "Masques de saisie",
+        "ADVANCED": "Avancé",
+        "RANGESLIDER": "Curseur de plage",
+        "VALIDATION": "Validation",
+        "WIZARD": "Assistant",
+        "EDITORS": "Éditeurs",
+        "FILEUPLOADS": "Téléchargement de fichiers",
+        "FORMLAYOUTS": "Mises en page de formulaire"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tableaux",
+      "LIST": {
+        "BASICTABLES": "Tableaux de base",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Graphiques Apex",
+      "LIST": {
+        "LINE": "Ligne",
+        "AREA": "Zone",
+        "COLUMN": "Colonne",
+        "BAR": "Barre",
+        "MIXED": "Mixte",
+        "TIMELINE": "Chronologie",
+        "CANDLSTICK": "Bâtonnets",
+        "BOXPLOT": "Boîtes à moustaches",
+        "BUBBLE": "Bulles",
+        "SCATTER": "Nuage de points",
+        "HEATMAP": "Carte de chaleur",
+        "TREEMAP": "Carte arborescente",
+        "PIE": "Camembert",
+        "RADIALBAR": "Barre radiale",
+        "RADAR": "Radar",
+        "POLARAREA": "Zone polaire"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icônes",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOOTSTRAP": "Amorcer",
+        "PHOSPHOR": "Phosphor",
+        "TABLER": "Tabler"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Cartes",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vectorielles",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Niveau multiple",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Niveau 1.1",
+          "2": "Niveau 1.2",
+          "LEVEL2": {
+            "1": "Niveau 2.1",
+            "2": "Niveau 2.2",
+            "LEVEL3": {
+              "1": "Niveau 3.1",
+              "2": "Niveau 3.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

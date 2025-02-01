@@ -1,0 +1,302 @@
+$primary-color: #000000;
+$accent-color: #f9a826;
+$white: #ffffff;
+$modal-bg: rgba(0, 0, 0, 0.6);
+$border-radius: 0.5rem;
+$transition-speed: 0.3s;
+
+.modal.show {
+  display: block;
+  background-color: $modal-bg;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.modal-dialog {
+  &.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.modal-extra-large {
+    max-width: 85%;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.modal-content {
+  border-radius: $border-radius;
+  overflow: hidden;
+  max-height: 80vh; // Set a maximum height for the modal content
+
+  display: flex;
+  flex-direction: column;
+
+  .modal-header {
+    background-color: $accent-color;
+    color: $white;
+    padding: 1rem 1.5rem;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    .modal-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+    }
+
+    .btn-close {
+      border: none;
+      font-size: 1.5rem;
+      color: #000000;
+      cursor: pointer;
+      transition: opacity $transition-speed ease;
+      margin-top: 0.1%;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    padding: 2rem;
+    max-height: calc(80vh - 4rem); /* Adjust based on header/footer height */
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+
+      .col-md-4 {
+        .div1 {
+          flex: 0 0 33.33%;
+          overflow: hidden; /* Hide overflow content */
+        }
+      }
+
+      .col-md-8 {
+        .div2 {
+          flex: 1;
+          overflow-y: auto; /* Enable scrolling */
+        }
+      }
+
+      .course-info {
+        h2 {
+          color: $primary-color;
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+        }
+
+        .d-flex {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          margin-bottom: 2rem;
+          margin-top: 1.5rem;
+        }
+
+        .course-price {
+          font-weight: bold;
+          font-size: 1.5rem;
+          color: $primary-color;
+        }
+
+        .description {
+          margin: 0 5% 5% 0;
+          font-size: 1rem;
+          line-height: 1.6;
+          color: darken($primary-color, 10%);
+        }
+
+        .list-style1.vs-list {
+          margin-top: 1rem;
+
+          ul {
+            padding-left: 1.5rem;
+            list-style-type: disc;
+
+            li {
+              font-size: 1rem;
+              color: darken($primary-color, 20%);
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
+
+        .accordion-body {
+          margin-top: 1rem;
+
+          .syllabus-list {
+            display: flex;
+            margin-bottom: 1rem;
+
+            .syllabus-img {
+              flex-shrink: 0;
+              margin-right: 1rem;
+
+              img {
+                width: 100px;
+                height: auto;
+                border-radius: $border-radius;
+              }
+            }
+
+            .syllabus-content {
+              .syllabustitle {
+                font-weight: 600;
+                color: $primary-color;
+                margin-bottom: 0.5rem;
+              }
+
+              .syllabustext {
+                font-size: 0.9rem;
+                color: darken($primary-color, 20%);
+              }
+            }
+          }
+        }
+
+        .btn-primary {
+          background-color: $accent-color;
+          border: none;
+          border-radius: $border-radius;
+          padding: 0.75rem 2rem;
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: $white;
+          cursor: pointer;
+          transition: background-color $transition-speed ease;
+
+          &:hover {
+            background-color: lighten($accent-color, 20%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.filter-bar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+  }
+}
+
+.course-container {
+  margin-bottom: 30px;
+}
+
+/*------------------- 4.5. Pagination  -------------------*/
+.vs-pagination {
+  text-align: center;
+  margin: 40px auto 30px auto;
+  padding: 15px 0;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  z-index: 1;
+}
+.vs-pagination:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 35px;
+  left: 35px;
+  z-index: -1;
+  border-radius: 20px;
+  background-color: var(--smoke-color);
+}
+.vs-pagination ul {
+  margin: 0;
+  padding: 0;
+}
+.vs-pagination li {
+  display: inline-block;
+  margin: 0 3px;
+  list-style-type: none;
+}
+.vs-pagination a {
+  display: inline-block;
+  border: none;
+  vertical-align: middle;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  height: var(--icon-size, 58px);
+  width: var(--icon-size, 58px);
+  line-height: var(--icon-size, 58px);
+  text-align: center;
+  background-color: var(--white-color);
+  color: var(--title-color);
+  font-family: var(--body-font);
+  z-index: 1;
+  border-radius: 20px;
+}
+.vs-pagination a:hover {
+  color: var(--white-color);
+  background-color: var(--theme-color);
+}
+.vs-pagination .next a,
+.vs-pagination .prev a {
+  display: block;
+  width: auto;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 30px;
+  background-color: var(--theme-color3);
+  color: var(--white-color);
+  border-radius: 28px;
+}
+.vs-pagination .next a:hover,
+.vs-pagination .prev a:hover {
+  background-color: var(--theme-color2);
+}
+@media (max-width: 991px) {
+  .vs-pagination a {
+    --icon-size: 40px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .vs-pagination a {
+    --icon-size: 30px;
+    font-size: 10px;
+  }
+  .vs-pagination .next a,
+  .vs-pagination .prev a {
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+}

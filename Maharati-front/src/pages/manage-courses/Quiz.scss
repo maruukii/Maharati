@@ -1,0 +1,298 @@
+.questions {
+  background-color: rgb(203, 206, 205);
+  border-left: 5px solid #b4c802dd;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 0.5rem 0.5rem;
+
+  .lifeline-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -2.5rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .option-container {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .option {
+    background-color: #b4c802dd;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    transition: background-color 0.3s linear;
+    text-align: center;
+    width: 90%;
+
+    &:hover {
+      background-color: darken(#b4c802dd, 4%);
+    }
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto 0.5rem;
+  padding: 1rem;
+  width: 80%;
+
+  button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-right: 1rem;
+    padding: 0.5rem 0.5rem;
+    transition: background-color 0.2s linear;
+
+    &:first-child {
+      background-color: #b4c802dd;
+      &:hover {
+        background-color: darken(#b4c802dd, 4%);
+      }
+    }
+
+    &:nth-child(2) {
+      background-color: #686963dd;
+      &:hover {
+        background-color: darken(#686963dd, 4%);
+      }
+    }
+
+    &:last-child {
+      background-color: #c80202dd;
+      &:hover {
+        background-color: darken(#c80202dd, 4%);
+      }
+    }
+  }
+}
+// Quiz.scss
+
+.create-quiz {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  .card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #f0f1f2;
+  
+    .card-title {
+      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+    }
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    input[type="text"],
+    select {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+
+    .options {
+      margin-bottom: 20px;
+
+      .option-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        position: relative;
+
+        input[type="text"] {
+          flex-grow: 1;
+          margin-right: 10px;
+          padding-right: 50px; /* Make space for the remove button */
+        }
+
+        .icon-button {
+          position: absolute;
+          right: 0;
+          background: none;
+          border: none;
+          color: #007bff;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 16px;
+          padding: 5px;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #e9ecef;
+          }
+
+          svg {
+            margin: 0;
+          }
+
+          &.remove-option {
+            color: #dc3545;
+            right: 10px;
+
+            &:hover {
+              background-color: #f8d7da;
+            }
+          }
+
+          &.add-option {
+            color: #28a745;
+            right: auto;
+            left: 0;
+
+            span {
+              margin-left: 5px;
+            }
+
+            &:hover {
+              background-color: #d4edda;
+            }
+          }
+        }
+      }
+    }
+
+    button[type="submit"] {
+      padding: 10px 15px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  }
+
+  .icon-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    color: #007bff;
+    transition: color 0.3s ease;
+    margin-bottom: 1rem;
+    &:hover {
+      color: #0056b3;
+    }
+  }
+}
+
+.add-option {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  .fa-plus {
+    margin-right: 8px;
+  }
+
+  span {
+    font-size: 13px;
+  }
+}
+.option-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.option-item {
+  background-color: #adadad81;
+  border-radius: 50%;
+  color: white;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  transition: background-color 0.3s linear;
+  text-align: center;
+  width: 90%;
+  border: none;
+  color: #333;
+  &:hover {
+    background-color: darken(#adadad81, 4%);
+  }
+}
+.option {
+  display: flex;
+  margin: 0.5rem auto;
+  width: 90%;
+  border: none;
+}

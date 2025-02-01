@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboard",
+      "LIST": {
+        "ANALYTICS": "Analisi",
+        "ECOMMERCE": "E-commerce"
+      }
+    },
+    "APPS": {
+      "TEXT": "Applicazioni",
+      "LIST": {
+        "CALENDAR": "Calendario",
+        "CHAT": "Chat",
+        "EMAIL": "Email",
+        "FILEMANAGER": "Gestore File",
+        "TODO": "Da Fare",
+        "CONTACTS": "Contatti",
+        "LEARNING": "Apprendimento",
+        "COURSES": "Corsi",
+        "KANBANBOARD": "Bacheca Kanban",
+        "INVOICES": "Fatture",
+        "LISTVIEW": "Vista Elenco",
+        "OVERVIEW": "Panoramica",
+        "CREATEINVOICE": "Creare Fattura"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pagine"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Autenticazione",
+      "LIST": {
+        "SIGNIN": "Accedi",
+        "SIGNUP": "Registrati",
+        "PASSWORDRESET": "Reset Password",
+        "PASSWORDCREATE": "Creare Password",
+        "LOCKSCREEN": "Blocca Schermo",
+        "LOGOUT": "Esci",
+        "SUCCESSMESSAGE": "Messaggio di Successo",
+        "TWOSTEPVERIFICATION": "Verifica a Due Passaggi",
+        "ERRORS": "Errori",
+        "404ERROR": "Errore 404",
+        "500": "500",
+        "OFFLINE": "Pagina Offline"
+      }
+    },
+    "MORE": {
+      "TEXT": "Altro"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "Pagine Extra",
+      "LIST": {
+        "STARTER": "Avviatore",
+        "PROFILE": "Profilo",
+        "PROFILESETTINGS": "Impostazioni Profilo",
+        "TIMELINE": "Cronologia",
+        "FAQS": "Domande frequenti",
+        "PRICING": "Prezzi",
+        "MAINTENANCE": "Manutenzione",
+        "COMINGSOON": "Prossimamente",
+        "PRIVACYPOLICY": "Politica sulla Privacy",
+        "TERMS&CONDITIONS": "Termini e Condizioni"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Componenti"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "Avvisi",
+        "BADGES": "Badge",
+        "BUTTONS": "Pulsanti",
+        "COLORS": "Colori",
+        "CARDS": "Carte",
+        "CAROUSEL": "Carosello",
+        "DROPDOWNS": "Menu a Tendina",
+        "GRID": "Griglia",
+        "IMAGES": "Immagini",
+        "TABS": "Schede",
+        "ACCORDION&COLLAPSE": "Accordion e Collapse",
+        "MODALS": "Modali"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "Oggetto Media",
+        "EMBEDVIDEO": "Incorpora Video",
+        "TYPOGRAPHY": "Tipografia",
+        "LISTS": "Elenchi",
+        "LINKS": "Collegamenti",
+        "GENERAL": "Generale",
+        "UTILITIES": "Utilità",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Segnaposto",
+        "PROGRESS": "Progresso",
+        "NOTIFICATIONS": "Notifiche"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "UI Avanzata",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Elenco annidabile",
+        "SCROLLBAR": "Scrollbar",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Valutazioni",
+        "HIGHLIGHT": "Evidenzia",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widget"
+    },
+    "FORMS": {
+      "TEXT": "Form",
+      "LIST": {
+        "BASICELEMENTS": "Elementi di base",
+        "FORMSELECT": "Seleziona Form",
+        "CHECKBOXS&RADIOS": "Caselle di controllo e Radio",
+        "PICKERS": "Selettori",
+        "INPUTMASKS": "Maschere di input",
+        "ADVANCED": "Avanzato",
+        "RANGESLIDER": "Slider Range",
+        "VALIDATION": "Validazione",
+        "WIZARD": "Wizard",
+        "EDITORS": "Editor",
+        "FILEUPLOADS": "Caricamento file",
+        "FORMLAYOUTS": "Layout del Form"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tabelle",
+      "LIST": {
+        "BASICTABLES": "Tabelle di base",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "DataTables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Grafici Apex",
+      "LIST": {
+        "LINE": "Linea",
+        "AREA": "Area",
+        "COLUMN": "Colonna",
+        "BAR": "Barra",
+        "MIXED": "Misto",
+        "TIMELINE": "Timeline",
+        "CANDLSTICK": "Candela",
+        "BOXPLOT": "Diagramma a Scatola",
+        "BUBBLE": "Bolla",
+        "SCATTER": "Disperso",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Treemap",
+        "PIE": "Torta",
+        "RADIALBAR": "Barra Radiale",
+        "RADAR": "Radar",
+        "POLARAREA": "Area Polare"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icone",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOOTSTRAP": "Bootstrap",
+        "PHOSPHOR": "Phosphor",
+        "TABLER": "Tabler"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Mappe",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vettoriale",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multilivello",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Livello 1.1",
+          "2": "Livello 1.2",
+          "LEVEL2": {
+            "1": "Livello 2.1",
+            "2": "Livello 2.2",
+            "LEVEL3": {
+              "1": "Livello 3.1",
+              "2": "Livello 3.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

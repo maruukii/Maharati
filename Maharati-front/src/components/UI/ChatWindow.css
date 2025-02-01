@@ -1,0 +1,247 @@
+/* Keyframes for glowing light effect */
+@keyframes light-play {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Keyframes for the glowing effect */
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px #007bff, 0 0 2px #007bff, 0 0 3px #007bff,
+      0 0 4px #007bff, 0 0 5px #007bff;
+  }
+  50% {
+    box-shadow: 0 0 2px #ff00cc, 0 0 4px #ff00cc, 0 0 6px #ff00cc,
+      0 0 8px #ff00cc, 0 0 10px #ff00cc;
+  }
+  20% {
+    box-shadow: 0 0 2px #00ff88, 0 0 4px #00ff88, 0 0 6px #00ff88,
+      0 0 8px #00ff88, 0 0 10px #00ff88;
+  }
+  60%,
+  80% {
+    box-shadow: 0 0 10px #0fb1bd, 0 0 2px #0fb1bd, 0 0 3px #0fb1bd,
+      0 0 4px #0fb1bd, 0 0 5px #0fb1bd;
+  }
+}
+.smiley-face {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+  animation: pulse 1s infinite, glow 3s infinite;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  position: fixed;
+  bottom: 500px;
+  right: 57px;
+  transition: all ease 0.4s;
+  z-index: 96;
+  bottom: 60px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.smile {
+  position: relative;
+  width: 20px;
+  height: 10px;
+  border-bottom: 3px solid #333;
+  border-radius: 0 0 50px 50px;
+  top: 10px;
+}
+
+.smile::before,
+.smile::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #333;
+  border-radius: 50%;
+  top: -14px;
+}
+
+.smile::before {
+  left: -10px;
+}
+
+.smile::after {
+  right: -10px;
+}
+
+.smiley-face::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    145deg,
+    rgba(156, 67, 67, 0.24),
+    rgb(255, 255, 255)
+  );
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.smile,
+.smile::before,
+.smile::after {
+  z-index: 1;
+}
+
+.circle-message {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* For the expanded chat window */
+.chat-window-expanded {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(-25%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.chat-window-expanded.open {
+  animation: slideIn 0.5s forwards, fadeIn 0.5s forwards;
+}
+
+.chat-window-expanded.closed {
+  animation: slideOut 0.5s forwards, fadeOut 0.5s forwards;
+  opacity: 0;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(-25%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.chat-header {
+  background-color: #ffcc33;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.chat-header img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.chat-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.bot-message {
+  background-color: #f1f0f0;
+  align-self: flex-start;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.chat-input form {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f0f0;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.chat-input button {
+  background-color: #ffcc33;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}

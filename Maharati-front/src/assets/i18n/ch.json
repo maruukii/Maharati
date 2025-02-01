@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "菜单"
+    },
+    "DASHBOARD": {
+      "TEXT": "仪表盘",
+      "LIST": {
+        "ANALYTICS": "分析",
+        "ECOMMERCE": "电子商务"
+      }
+    },
+    "APPS": {
+      "TEXT": "应用",
+      "LIST": {
+        "CALENDAR": "日历",
+        "CHAT": "聊天",
+        "EMAIL": "电子邮件",
+        "FILEMANAGER": "文件管理器",
+        "TODO": "待办事项",
+        "CONTACTS": "联系人",
+        "LEARNING": "学习",
+        "COURSES": "课程",
+        "KANBANBOARD": "看板",
+        "INVOICES": "发票",
+        "LISTVIEW": "列表视图",
+        "OVERVIEW": "概述",
+        "CREATEINVOICE": "创建发票"
+      }
+    },
+    "PAGES": {
+      "TEXT": "页面"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "身份验证",
+      "LIST": {
+        "SIGNIN": "登录",
+        "SIGNUP": "注册",
+        "PASSWORDRESET": "重置密码",
+        "PASSWORDCREATE": "创建密码",
+        "LOCKSCREEN": "锁屏",
+        "LOGOUT": "注销",
+        "SUCCESSMESSAGE": "成功消息",
+        "TWOSTEPVERIFICATION": "两步验证",
+        "ERRORS": "错误",
+        "404ERROR": "404 错误",
+        "500": "500",
+        "OFFLINE": "离线页面"
+      }
+    },
+    "MORE": {
+      "TEXT": "更多"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "额外页面",
+      "LIST": {
+        "STARTER": "入门",
+        "PROFILE": "个人资料",
+        "PROFILESETTINGS": "个人资料设置",
+        "TIMELINE": "时间线",
+        "FAQS": "常见问题",
+        "PRICING": "定价",
+        "MAINTENANCE": "维护",
+        "COMINGSOON": "即将推出",
+        "PRIVACYPOLICY": "隐私政策",
+        "TERMS&CONDITIONS": "条款和条件"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "组件"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "警报",
+        "BADGES": "徽章",
+        "BUTTONS": "按钮",
+        "COLORS": "颜色",
+        "CARDS": "卡片",
+        "CAROUSEL": "走马灯",
+        "DROPDOWNS": "下拉菜单",
+        "GRID": "网格",
+        "IMAGES": "图片",
+        "TABS": "选项卡",
+        "ACCORDION&COLLAPSE": "手风琴和折叠",
+        "MODALS": "模态框"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "媒体对象",
+        "EMBEDVIDEO": "嵌入视频",
+        "TYPOGRAPHY": "排版",
+        "LISTS": "列表",
+        "LINKS": "链接",
+        "GENERAL": "常规",
+        "UTILITIES": "实用工具",
+        "OFFCANVAS": "侧边栏",
+        "PLACEHOLDERS": "占位符",
+        "PROGRESS": "进度条",
+        "NOTIFICATIONS": "通知"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "高级 UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "可嵌套列表",
+        "SCROLLBAR": "滚动条",
+        "SWIPERSLIDER": "Swiper 幻灯片",
+        "RATTINGS": "评分",
+        "HIGHLIGHT": "高亮",
+        "SCROLLSPY": "滚动监听"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "小部件"
+    },
+    "FORMS": {
+      "TEXT": "表单",
+      "LIST": {
+        "BASICELEMENTS": "基本元素",
+        "FORMSELECT": "表单选择",
+        "CHECKBOXS&RADIOS": "复选框和单选按钮",
+        "PICKERS": "选择器",
+        "INPUTMASKS": "输入掩码",
+        "ADVANCED": "高级",
+        "RANGESLIDER": "范围滑块",
+        "VALIDATION": "验证",
+        "WIZARD": "向导",
+        "EDITORS": "编辑器",
+        "FILEUPLOADS": "文件上传",
+        "FORMLAYOUTS": "表单布局"
+      }
+    },
+    "TABLES": {
+      "TEXT": "表格",
+      "LIST": {
+        "BASICTABLES": "基本表格",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "数据表"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Apexcharts",
+      "LIST": {
+        "LINE": "折线",
+        "AREA": "面积",
+        "COLUMN": "柱状图",
+        "BAR": "条形图",
+        "MIXED": "混合",
+        "TIMELINE": "时间线",
+        "CANDLSTICK": "蜡烛图",
+        "BOXPLOT": "箱线图",
+        "BUBBLE": "气泡",
+        "SCATTER": "散点",
+        "HEATMAP": "热力图",
+        "TREEMAP": "树状图",
+        "PIE": "饼图",
+        "RADIALBAR": "径向条形图",
+        "RADAR": "雷达图",
+        "POLARAREA": "极地区域"
+      }
+    },
+    "ICONS": {
+      "TEXT": "图标",
+      "LIST": {
+        "REMIX": "混音",
+        "BOOTSTRAP": "引导程序",
+        "PHOSPHOR": "磷",
+        "TABLER": "桌子"
+      }
+    },
+    "MAPS": {
+      "TEXT": "地图",
+      "LIST": {
+        "GOOGLE": "谷歌",
+        "VECTOR": "矢量",
+        "LEAFLET": "传单"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "多级菜单",
+      "LIST": {
+        "LEVEL1": {
+          "1": "1.1 级",
+          "2": "1.2 级",
+          "LEVEL2": {
+            "1": "2.1 级",
+            "2": "2.2 级",
+            "LEVEL3": {
+              "1": "3.1 级",
+              "2": "3.2 级"
+            }
+          }
+        }
+      }
+    }
+  }
+}

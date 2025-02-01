@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENÚ"
+    },
+    "DASHBOARD": {
+      "TEXT": "Tableros",
+      "LIST": {
+        "ANALYTICS": "Analítica",
+        "ECOMMERCE": "Comercio Electrónico"
+      }
+    },
+    "APPS": {
+      "TEXT": "Aplicaciones",
+      "LIST": {
+        "CALENDAR": "Calendario",
+        "CHAT": "Chat",
+        "EMAIL": "Correo Electrónico",
+        "FILEMANAGER": "Administrador de Archivos",
+        "TODO": "Tareas",
+        "CONTACTS": "Contactos",
+        "LEARNING": "Aprendizaje",
+        "COURSES": "Cursos",
+        "KANBANBOARD": "Tablero Kanban",
+        "INVOICES": "Facturas",
+        "LISTVIEW": "Vista de Lista",
+        "OVERVIEW": "Resumen",
+        "CREATEINVOICE": "Crear Factura"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Páginas"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Autenticación",
+      "LIST": {
+        "SIGNIN": "Iniciar Sesión",
+        "SIGNUP": "Registrarse",
+        "PASSWORDRESET": "Restablecer Contraseña",
+        "PASSWORDCREATE": "Crear Contraseña",
+        "LOCKSCREEN": "Bloquear Pantalla",
+        "LOGOUT": "Cerrar Sesión",
+        "SUCCESSMESSAGE": "Mensaje de Éxito",
+        "TWOSTEPVERIFICATION": "Verificación de Dos Pasos",
+        "ERRORS": "Errores",
+        "404ERROR": "Error 404",
+        "500": "500",
+        "OFFLINE": "Página Sin Conexión"
+      }
+    },
+    "MORE": {
+      "TEXT": "Más"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "Páginas Extra",
+      "LIST": {
+        "STARTER": "Inicio",
+        "PROFILE": "Perfil",
+        "PROFILESETTINGS": "Configuración de Perfil",
+        "TIMELINE": "Cronología",
+        "FAQS": "Preguntas Frecuentes",
+        "PRICING": "Precios",
+        "MAINTENANCE": "Mantenimiento",
+        "COMINGSOON": "Próximamente",
+        "PRIVACYPOLICY": "Política de Privacidad",
+        "TERMS&CONDITIONS": "Términos y Condiciones"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Componentes"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "Alertas",
+        "BADGES": "Insignias",
+        "BUTTONS": "Botones",
+        "COLORS": "Colores",
+        "CARDS": "Tarjetas",
+        "CAROUSEL": "Carrusel",
+        "DROPDOWNS": "Desplegables",
+        "GRID": "Cuadrícula",
+        "IMAGES": "Imágenes",
+        "TABS": "Pestañas",
+        "ACCORDION&COLLAPSE": "Acordeón y Colapso",
+        "MODALS": "Modales"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "Objeto de Medios",
+        "EMBEDVIDEO": "Video Incrustado",
+        "TYPOGRAPHY": "Tipografía",
+        "LISTS": "Listas",
+        "LINKS": "Enlaces",
+        "GENERAL": "General",
+        "UTILITIES": "Utilidades",
+        "OFFCANVAS": "Fuera de Lienzo",
+        "PLACEHOLDERS": "Marcadores de Posición",
+        "PROGRESS": "Progreso",
+        "NOTIFICATIONS": "Notificaciones"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "UI Avanzada",
+      "LIST": {
+        "SWEETALERTS": "Alertas Sweet",
+        "NESTABLELIST": "Lista Anidada",
+        "SCROLLBAR": "Barra de Desplazamiento",
+        "SWIPERSLIDER": "Slider Swiper",
+        "RATTINGS": "Calificaciones",
+        "HIGHLIGHT": "Resaltar",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Formularios",
+      "LIST": {
+        "BASICELEMENTS": "Elementos Básicos",
+        "FORMSELECT": "Selección de Formulario",
+        "CHECKBOXS&RADIOS": "Casillas de Verificación y Botones de Radio",
+        "PICKERS": "Selección de Fecha/Hora",
+        "INPUTMASKS": "Máscaras de Entrada",
+        "ADVANCED": "Avanzado",
+        "RANGESLIDER": "Control de Rango",
+        "VALIDATION": "Validación",
+        "WIZARD": "Asistente",
+        "EDITORS": "Editores",
+        "FILEUPLOADS": "Carga de Archivos",
+        "FORMLAYOUTS": "Diseños de Formulario"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tablas",
+      "LIST": {
+        "BASICTABLES": "Tablas Básicas",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "DataTables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Gráficos",
+      "LIST": {
+        "LINE": "Línea",
+        "AREA": "Área",
+        "COLUMN": "Columna",
+        "BAR": "Barra",
+        "MIXED": "Mixto",
+        "TIMELINE": "Línea de Tiempo",
+        "CANDLSTICK": "Vela",
+        "BOXPLOT": "Diagrama de Caja",
+        "BUBBLE": "Burbuja",
+        "SCATTER": "Dispersión",
+        "HEATMAP": "Mapa de Calor",
+        "TREEMAP": "Mapa de Árbol",
+        "PIE": "Pastel",
+        "RADIALBAR": "Barra Radial",
+        "RADAR": "Radar",
+        "POLARAREA": "Área Polar"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Iconos",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOOTSTRAP": "Oreja",
+        "PHOSPHOR": "Phosphor",
+        "TABLER": "Tabler"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Mapas",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vector",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Nivel",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Nivel 1.1",
+          "2": "Nivel 1.2",
+          "LEVEL2": {
+            "1": "Nivel 2.1",
+            "2": "Nivel 2.2",
+            "LEVEL3": {
+              "1": "Nivel 3.1",
+              "2": "Nivel 3.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

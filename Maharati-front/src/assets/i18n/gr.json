@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "Menü"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboard",
+      "LIST": {
+        "ANALYTICS": "Analytik",
+        "ECOMMERCE": "E-Commerce"
+      }
+    },
+    "APPS": {
+      "TEXT": "Apps",
+      "LIST": {
+        "CALENDAR": "Kalender",
+        "CHAT": "Chat",
+        "EMAIL": "E-Mail",
+        "FILEMANAGER": "Dateimanager",
+        "TODO": "Aufgabenliste",
+        "CONTACTS": "Kontakte",
+        "LEARNING": "Lernen",
+        "COURSES": "Kurse",
+        "KANBANBOARD": "Kanban-Board",
+        "INVOICES": "Rechnungen",
+        "LISTVIEW": "Listenansicht",
+        "OVERVIEW": "Übersicht",
+        "CREATEINVOICE": "Rechnung erstellen"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Seiten"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Authentifizierung",
+      "LIST": {
+        "SIGNIN": "Anmelden",
+        "SIGNUP": "Registrieren",
+        "PASSWORDRESET": "Passwort zurücksetzen",
+        "PASSWORDCREATE": "Passwort erstellen",
+        "LOCKSCREEN": "Sperrbildschirm",
+        "LOGOUT": "Abmelden",
+        "SUCCESSMESSAGE": "Erfolgsmeldung",
+        "TWOSTEPVERIFICATION": "Zwei-Faktor-Authentifizierung",
+        "ERRORS": "Fehler",
+        "404ERROR": "404 Fehler",
+        "500": "500",
+        "OFFLINE": "Offline-Seite"
+      }
+    },
+    "MORE": {
+      "TEXT": "Mehr"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "Zusätzliche Seiten",
+      "LIST": {
+        "STARTER": "Starter",
+        "PROFILE": "Profil",
+        "PROFILESETTINGS": "Profileinstellungen",
+        "TIMELINE": "Zeitleiste",
+        "FAQS": "FAQs",
+        "PRICING": "Preisgestaltung",
+        "MAINTENANCE": "Wartungsmodus",
+        "COMINGSOON": "Demnächst",
+        "PRIVACYPOLICY": "Datenschutzerklärung",
+        "TERMS&CONDITIONS": "Geschäftsbedingungen"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Komponenten"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "Benachrichtigungen",
+        "BADGES": "Abzeichen",
+        "BUTTONS": "Schaltflächen",
+        "COLORS": "Farben",
+        "CARDS": "Karten",
+        "CAROUSEL": "Karussell",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Raster",
+        "IMAGES": "Bilder",
+        "TABS": "Tabs",
+        "ACCORDION&COLLAPSE": "Akkordeon & Aufklappen",
+        "MODALS": "Modals"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "Medienobjekt",
+        "EMBEDVIDEO": "Video einbetten",
+        "TYPOGRAPHY": "Typografie",
+        "LISTS": "Listen",
+        "LINKS": "Links",
+        "GENERAL": "Allgemein",
+        "UTILITIES": "Dienstprogramme",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Platzhalter",
+        "PROGRESS": "Fortschritt",
+        "NOTIFICATIONS": "Benachrichtigungen"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Erweiterte UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Verschachtelte Liste",
+        "SCROLLBAR": "Bildlaufleiste",
+        "SWIPERSLIDER": "Swiper-Slider",
+        "RATTINGS": "Bewertungen",
+        "HIGHLIGHT": "Hervorhebung",
+        "SCROLLSPY": "Scroll-Spionage"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Formulare",
+      "LIST": {
+        "BASICELEMENTS": "Grundelemente",
+        "FORMSELECT": "Formularauswahl",
+        "CHECKBOXS&RADIOS": "Checkboxen & Radios",
+        "PICKERS": "Picker",
+        "INPUTMASKS": "Eingabemaske",
+        "ADVANCED": "Erweitert",
+        "RANGESLIDER": "Bereichsschieberegler",
+        "VALIDATION": "Validierung",
+        "WIZARD": "Assistent",
+        "EDITORS": "Editoren",
+        "FILEUPLOADS": "Datei-Uploads",
+        "FORMLAYOUTS": "Formularlayouts"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tabellen",
+      "LIST": {
+        "BASICTABLES": "Grundlegende Tabellen",
+        "GRIDJS": "Grid JS",
+        "LISTJS": "Liste JS",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Apexcharts",
+      "LIST": {
+        "LINE": "Linie",
+        "AREA": "Fläche",
+        "COLUMN": "Säule",
+        "BAR": "Balken",
+        "MIXED": "Gemischt",
+        "TIMELINE": "Zeitleiste",
+        "CANDLSTICK": "Kerzenchart",
+        "BOXPLOT": "Boxplot",
+        "BUBBLE": "Blase",
+        "SCATTER": "Streuen",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Baumkarte",
+        "PIE": "Kreis",
+        "RADIALBAR": "Radialleiste",
+        "RADAR": "Radar",
+        "POLARAREA": "Polares Gebiet"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Symbole",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOOTSTRAP": "Bootstrap",
+        "PHOSPHOR": "Phosphor",
+        "TABLER": "Tabler"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Karten",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vektor",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Mehrstufig",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Ebene 1.1",
+          "2": "Ebene 1.2",
+          "LEVEL2": {
+            "1": "Ebene 2.1",
+            "2": "Ebene 2.2",
+            "LEVEL3": {
+              "1": "Ebene 3.1",
+              "2": "Ebene 3.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+//
+// colorpicker.scss
+//
+input.spectrum.with-add-on {
+  border: 1px solid $input-border-color;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: $input-border-radius;
+  border-bottom-right-radius: $input-border-radius;
+}

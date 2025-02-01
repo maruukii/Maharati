@@ -1,0 +1,13 @@
+//
+// apexcharts.scss
+//
+.apex-charts {
+  min-height: 10px !important;
+  text {
+    font-family: $font-family-base !important;
+    fill: var(--#{$prefix}secondary-color);
+  }
+  .apexcharts-canvas {
+    margin: 0 auto;
+  }
+}

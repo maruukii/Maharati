@@ -1,0 +1,27 @@
+.placeholder-title {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-45%);
+  background: none;
+  padding: 0 0.25rem;
+  font-size: 0.75rem;
+  color: #007bff;
+  opacity: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+textarea:focus + .placeholder-title,
+select:focus + .placeholder-title,
+input:focus + .placeholder-title {
+  opacity: 1;
+  top: -0.8rem;
+  left: 1rem;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  margin-bottom: 0.5rem;
+}

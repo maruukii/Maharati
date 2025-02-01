@@ -1,0 +1,42 @@
+.gg {
+    position: relative;
+    width: 6rem; /* Set the width to match the image's height */
+    height: 6rem; /* Ensure the container is square */
+  }
+  
+  .avatar-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Ensure the image is perfectly circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the overlay match the image size */
+    height: 100%; /* Ensure the overlay matches the height */
+    border-radius: 50%; /* Make the overlay a perfect circle */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gg:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .upload-button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

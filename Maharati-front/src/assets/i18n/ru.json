@@ -1,0 +1,202 @@
+{
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "Меню"
+    },
+    "DASHBOARD": {
+      "TEXT": "Панели управления",
+      "LIST": {
+        "ANALYTICS": "Аналитика",
+        "ECOMMERCE": "Электронная коммерция"
+      }
+    },
+    "APPS": {
+      "TEXT": "Приложения",
+      "LIST": {
+        "CALENDAR": "Календарь",
+        "CHAT": "Чат",
+        "EMAIL": "Электронная почта",
+        "FILEMANAGER": "Файловый менеджер",
+        "TODO": "Список задач",
+        "CONTACTS": "Контакты",
+        "LEARNING": "Обучение",
+        "COURSES": "Курсы",
+        "KANBANBOARD": "Доска Kanban",
+        "INVOICES": "Счета",
+        "LISTVIEW": "Список",
+        "OVERVIEW": "Обзор",
+        "CREATEINVOICE": "Создать счет"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Страницы"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Аутентификация",
+      "LIST": {
+        "SIGNIN": "Вход",
+        "SIGNUP": "Регистрация",
+        "PASSWORDRESET": "Сброс пароля",
+        "PASSWORDCREATE": "Создание пароля",
+        "LOCKSCREEN": "Заставка блокировки",
+        "LOGOUT": "Выход",
+        "SUCCESSMESSAGE": "Успешное сообщение",
+        "TWOSTEPVERIFICATION": "Двухэтапная проверка",
+        "ERRORS": "Ошибки",
+        "404ERROR": "Ошибка 404",
+        "500": "Ошибка 500",
+        "OFFLINE": "Страница оффлайн"
+      }
+    },
+    "MORE": {
+      "TEXT": "Дополнительно"
+    },
+    "EXTRAPAGES": {
+      "TEXT": "Дополнительные страницы",
+      "LIST": {
+        "STARTER": "Начальная",
+        "PROFILE": "Профиль",
+        "PROFILESETTINGS": "Настройки профиля",
+        "TIMELINE": "Лента",
+        "FAQS": "FAQs",
+        "PRICING": "Цены",
+        "MAINTENANCE": "Техническое обслуживание",
+        "COMINGSOON": "Скоро",
+        "PRIVACYPOLICY": "Политика конфиденциальности",
+        "TERMS&CONDITIONS": "Условия использования"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Компоненты"
+    },
+    "BOOTSTRAPUI1": {
+      "TEXT": "Bootstrap UI1",
+      "LIST": {
+        "ALERTS": "Оповещения",
+        "BADGES": "Значки",
+        "BUTTONS": "Кнопки",
+        "COLORS": "Цвета",
+        "CARDS": "Карточки",
+        "CAROUSEL": "Карусель",
+        "DROPDOWNS": "Выпадающие списки",
+        "GRID": "Сетка",
+        "IMAGES": "Изображения",
+        "TABS": "Вкладки",
+        "ACCORDION&COLLAPSE": "Аккордеон и сворачивание",
+        "MODALS": "Модальные окна"
+      }
+    },
+    "BOOTSTRAPUI2": {
+      "TEXT": "Bootstrap UI2",
+      "LIST": {
+        "MEDIAOBJECT": "Медиа-объект",
+        "EMBEDVIDEO": "Встроенное видео",
+        "TYPOGRAPHY": "Типографика",
+        "LISTS": "Списки",
+        "LINKS": "Ссылки",
+        "GENERAL": "Общее",
+        "UTILITIES": "Утилиты",
+        "OFFCANVAS": "Панель",
+        "PLACEHOLDERS": "Заполнители",
+        "PROGRESS": "Прогресс",
+        "NOTIFICATIONS": "Уведомления"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Расширенный UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Список вложенности",
+        "SCROLLBAR": "Полоса прокрутки",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Рейтинги",
+        "HIGHLIGHT": "Выделение",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Виджеты"
+    },
+    "FORMS": {
+      "TEXT": "Формы",
+      "LIST": {
+        "BASICELEMENTS": "Основные элементы",
+        "FORMSELECT": "Выбор формы",
+        "CHECKBOXS&RADIOS": "Флажки и радиокнопки",
+        "PICKERS": "Выборы",
+        "INPUTMASKS": "Маски ввода",
+        "ADVANCED": "Расширенные",
+        "RANGESLIDER": "Ползунок диапазона",
+        "VALIDATION": "Валидация",
+        "WIZARD": "Мастер",
+        "EDITORS": "Редакторы",
+        "FILEUPLOADS": "Загрузка файлов",
+        "FORMLAYOUTS": "Макеты форм"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Таблицы",
+      "LIST": {
+        "BASICTABLES": "Основные таблицы",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Графики Apex",
+      "LIST": {
+        "LINE": "Линия",
+        "AREA": "Площадь",
+        "COLUMN": "Столбец",
+        "BAR": "Гистограмма",
+        "MIXED": "Смешанный",
+        "TIMELINE": "Временная шкала",
+        "CANDLSTICK": "Свечной график",
+        "BOXPLOT": "Ящик с усами",
+        "BUBBLE": "Пузырь",
+        "SCATTER": "Рассеивание",
+        "HEATMAP": "Тепловая карта",
+        "TREEMAP": "Древовидная карта",
+        "PIE": "Круговая",
+        "RADIALBAR": "Радиальная полоса",
+        "RADAR": "Радар",
+        "POLARAREA": "Полярная область"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Иконки",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOOTSTRAP": "Начальная загрузка",
+        "PHOSPHOR": "Phosphor",
+        "TABLER": "Tabler"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Карты",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Вектор",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Многоуровневое",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Уровень 1.1",
+          "2": "Уровень 1.2",
+          "LEVEL2": {
+            "1": "Уровень 2.1",
+            "2": "Уровень 2.2",
+            "LEVEL3": {
+              "1": "Уровень 3.1",
+              "2": "Уровень 3.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
