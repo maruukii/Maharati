@@ -21,7 +21,7 @@ Maharati is a web solution designed to help users develop their skills by sugges
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Maruukii/Maharati.git
+   git clone https://github.com/maruukii/Maharati.git
    cd Maharati
    cd Maharati-api
    ```
