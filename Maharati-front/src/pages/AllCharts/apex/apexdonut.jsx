@@ -1,12 +1,12 @@
-import React from "react"
-import ReactApexChart from "react-apexcharts"
+import React from "react";
+import ReactApexChart from "react-apexcharts";
 
 const RadialChartData = {
   options: {
     plotOptions: {
       radialBar: {
         hollow: {
-          size: "45%",
+          size: "90%",
         },
         dataLabels: {
           value: {
@@ -19,20 +19,19 @@ const RadialChartData = {
     labels: [""],
   },
   series: [80],
-}
+};
 
 const RadialChart = () => {
-  return(
+  return (
     <React.Fragment>
-        <ReactApexChart
-          options={RadialChartData.options}
-          series={RadialChartData.series}
-          type="radialBar"
-          height="143"
-        />
-      </React.Fragment>
-  )
-}
-
+      <ReactApexChart
+        options={RadialChartData.options}
+        series={RadialChartData.series}
+        type="radialBar"
+        height="143"
+      />
+    </React.Fragment>
+  );
+};
 
 export default RadialChart;

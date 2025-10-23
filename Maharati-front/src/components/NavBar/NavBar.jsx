@@ -39,7 +39,6 @@ const Navbar = () => {
       });
     });
   });
-
   return (
     <>
       {/* Mobile Menu */}
@@ -305,25 +304,27 @@ const Navbar = () => {
                     </div>
                   ) : (
                     <>
-                      <div
-                        className="vs-btn style4 loginButton"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <Link
-                          to="/dashboard"
-                          style={{
-                            display: "flex",
-                            textDecoration: "none",
-                            color: "black",
-                          }}
+                      {auth?.user?.Role !== "User" && (
+                        <div
+                          className="vs-btn style4 loginButton"
+                          style={{ marginRight: "10px" }}
                         >
-                          <i
-                            className="fas fa-list-alt"
-                            style={{ color: "black", fontSize: "1rem" }}
-                          ></i>
-                          <div className="authentification">Dashboard</div>
-                        </Link>
-                      </div>
+                          <Link
+                            to="/dashboard"
+                            style={{
+                              display: "flex",
+                              textDecoration: "none",
+                              color: "black",
+                            }}
+                          >
+                            <i
+                              className="fas fa-list-alt"
+                              style={{ color: "black", fontSize: "1rem" }}
+                            ></i>
+                            <div className="authentification">Dashboard</div>
+                          </Link>
+                        </div>
+                      )}
                       <div className="vs-btn style4 loginButton">
                         <Link
                           to="/"

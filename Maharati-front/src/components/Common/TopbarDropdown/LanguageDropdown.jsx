@@ -37,7 +37,7 @@ const LanguageDropdown = () => {
         className="d-inline-block d-sm-inline-block"
       >
         <DropdownToggle className="btn header-item waves-effect" tag="button">
-          <img src={languages[selectLang].flag} style={{ height: "2rem" }} />
+          <img src={languages[selectLang]?.flag} style={{ height: "2rem" }} />
         </DropdownToggle>
         <DropdownMenu className="language-switch dropdown-menu-end">
           {map(Object.keys(languages), (key) => (

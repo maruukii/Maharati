@@ -38,11 +38,15 @@ const supportRoute = require("./src/routes/supportRoute.js");
 const auditRoute = require("./src/routes/auditRoute.js");
 const mailRoute = require("./src/routes/mailRoute.js");
 const notiRoute = require("./src/routes/notifRoute.js");
+const elementRoute = require("./src/routes/elementRoute.js");
+const propertyRoute = require("./src/routes/propertyRoute.js");
 const { AI } = require("./geminiAPI.js");
 const testFinalRoutes = require("./src/routes/TestFinalRoutes");
 
 app.use("/ask-ai", AI);
 app.use("/", authRoute);
+app.use("/elements", elementRoute);
+app.use("/properties", propertyRoute);
 app.use("/compose-mail", mailRoute);
 app.use("/support", supportRoute);
 app.use("/notifications", notiRoute);
